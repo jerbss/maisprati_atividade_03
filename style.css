@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* Configuração básica e fonte Exo */
+html, body {
+    height: 100%; /* Garante que o body ocupe 100% da altura da tela */
+}
+
+/* Configuração básica e fonte Exo */
+body {
+    display: flex; /* Usa flexbox para o layout */
+    flex-direction: column; /* Coloca os elementos em coluna */
+    font-family: 'Exo', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('img/osu!triangles-tile-light@2x.png');
+    background-repeat: repeat;
+    background-size: auto;
+    background-color: #f0f0f0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600; /* Medium ou outro peso desejado */
+}
+
+p {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400; /* Regular */
+}
+
+/* Classes para a fonte Exo com diferentes pesos */
+.exo-header {
+    font-weight: 700;
+    font-size: 2em;
+    color: #ffffff; /* Cor vibrante para o título principal */
+    text-align: center;
+}
+
+.exo-title {
+    font-weight: 600;
+    color: #000000;
+    font-size: 1.5em;
+}
+
+.exo-text {
+    font-weight: 400;
+    font-size: 1em;
+    color: #555;
+}
+
+.exo-sidebar {
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.exo-footer {
+    font-weight: 300;
+    font-size: 0.9em;
+    color: white;
+    text-align: center;
+}
+
+/* Estilização do Header */
+header {
+    background-color: #ff66aa;
+    padding: 20px;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header ul li a:hover {
+    color: #FFDDEE;
+}
+
+/* Layout principal */
+main {
+    display: flex;
+    flex: 1;
+    margin: 20px;
+}
+
+/* Estilização da Section */
+section {
+    background-color: #f9f9f9;
+    flex: 0 0 70%;
+    padding: 20px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Estilização do Aside */
+aside {
+    background-color: #f1f1f1;
+    flex: 0 0 30%;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+aside ul li a:hover {
+    color: #EE3399;
+}
+
+/* Estilização do Footer */
+footer {
+    background-color: #ff66aa;
+    padding: 10px;
+    margin-top: auto;
+}
